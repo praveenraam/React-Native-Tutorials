@@ -1,0 +1,74 @@
+# OSX
+#
+currency/.DS_Store
+
+# Xcode
+#
+currency/build/
+currency/*.pbxuser
+!currency/default.pbxuser
+currency/*.mode1v3
+!currency/default.mode1v3
+currency/*.mode2v3
+!currency/default.mode2v3
+currency/*.perspectivev3
+!currency/default.perspectivev3
+currency/xcuserdata
+currency/*.xccheckout
+currency/*.moved-aside
+currency/DerivedData
+currency/*.hmap
+currency/*.ipa
+currency/*.xcuserstate
+currency/**/.xcode.env.local
+
+# Android/IntelliJ
+#
+currency/build/
+currency/.idea
+currency/.gradle
+currency/local.properties
+currency/*.iml
+currency/*.hprof
+currency/.cxx/
+currency/*.keystore
+!currency/debug.keystore
+
+# node.js
+#
+currency/node_modules/
+currency/npm-debug.log
+currency/yarn-error.log
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+currency/**/fastlane/report.xml
+currency/**/fastlane/Preview.html
+currency/**/fastlane/screenshots
+currency/**/fastlane/test_output
+
+# Bundle artifact
+currency/*.jsbundle
+
+# Ruby / CocoaPods
+currency/**/Pods/
+currency//vendor/bundle/
+
+# Temporary files created by Metro to check the health of the file watcher
+currency/.metro-health-check*
+
+# testing
+currency/coverage
+
+# Yarn
+currency/.yarn/*
+!currency/.yarn/patches
+!currency/.yarn/plugins
+!currency/.yarn/releases
+!currency/.yarn/sdks
+!currency/.yarn/versions
