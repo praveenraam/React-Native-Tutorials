@@ -4,41 +4,41 @@ currency/.DS_Store
 
 # Xcode
 #
-currency/build/
-currency/*.pbxuser
-!currency/default.pbxuser
-currency/*.mode1v3
-!currency/default.mode1v3
-currency/*.mode2v3
-!currency/default.mode2v3
-currency/*.perspectivev3
-!currency/default.perspectivev3
-currency/xcuserdata
-currency/*.xccheckout
-currency/*.moved-aside
-currency/DerivedData
-currency/*.hmap
-currency/*.ipa
-currency/*.xcuserstate
-currency/**/.xcode.env.local
+App6/build/
+App6/*.pbxuser
+!App6/default.pbxuser
+App6/*.mode1v3
+!App6/default.mode1v3
+App6/*.mode2v3
+!App6/default.mode2v3
+App6/*.perspectivev3
+!App6/default.perspectivev3
+App6/xcuserdata
+App6/*.xccheckout
+App6/*.moved-aside
+App6/DerivedData
+App6/*.hmap
+App6/*.ipa
+App6/*.xcuserstate
+App6/**/.xcode.env.local
 
 # Android/IntelliJ
 #
-currency/build/
-currency/.idea
-currency/.gradle
-currency/local.properties
-currency/*.iml
-currency/*.hprof
-currency/.cxx/
-currency/*.keystore
-!currency/debug.keystore
+App6/build/
+App6/.idea
+App6/.gradle
+App6/local.properties
+App6/*.iml
+App6/*.hprof
+App6/.cxx/
+App6/*.keystore
+!App6/debug.keystore
 
 # node.js
 #
-currency/node_modules/
-currency/npm-debug.log
-currency/yarn-error.log
+App6/node_modules/
+App6/npm-debug.log
+App6/yarn-error.log
 
 # fastlane
 #
@@ -47,28 +47,28 @@ currency/yarn-error.log
 # For more information about the recommended setup visit:
 # https://docs.fastlane.tools/best-practices/source-control/
 
-currency/**/fastlane/report.xml
-currency/**/fastlane/Preview.html
-currency/**/fastlane/screenshots
-currency/**/fastlane/test_output
+App6/**/fastlane/report.xml
+App6/**/fastlane/Preview.html
+App6/**/fastlane/screenshots
+App6/**/fastlane/test_output
 
 # Bundle artifact
-currency/*.jsbundle
+App6/*.jsbundle
 
 # Ruby / CocoaPods
-currency/**/Pods/
-currency//vendor/bundle/
+App6/**/Pods/
+App6//vendor/bundle/
 
 # Temporary files created by Metro to check the health of the file watcher
-currency/.metro-health-check*
+App6/.metro-health-check*
 
 # testing
-currency/coverage
+App6/coverage
 
 # Yarn
-currency/.yarn/*
-!currency/.yarn/patches
-!currency/.yarn/plugins
-!currency/.yarn/releases
-!currency/.yarn/sdks
-!currency/.yarn/versions
+App6/.yarn/*
+!App6/.yarn/patches
+!App6/.yarn/plugins
+!App6/.yarn/releases
+!App6/.yarn/sdks
+!App6/.yarn/versions
