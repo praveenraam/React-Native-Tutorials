@@ -72,3 +72,78 @@ App6/.yarn/*
 !App6/.yarn/releases
 !App6/.yarn/sdks
 !App6/.yarn/versions
+
+# OSX
+#
+currency/.DS_Store
+
+# Xcode
+#
+spotifyApp/build/
+spotifyApp/*.pbxuser
+!spotifyApp/default.pbxuser
+spotifyApp/*.mode1v3
+!spotifyApp/default.mode1v3
+spotifyApp/*.mode2v3
+!spotifyApp/default.mode2v3
+spotifyApp/*.perspectivev3
+!spotifyApp/default.perspectivev3
+spotifyApp/xcuserdata
+spotifyApp/*.xccheckout
+spotifyApp/*.moved-aside
+spotifyApp/DerivedData
+spotifyApp/*.hmap
+spotifyApp/*.ipa
+spotifyApp/*.xcuserstate
+spotifyApp/**/.xcode.env.local
+
+# Android/IntelliJ
+#
+spotifyApp/build/
+spotifyApp/.idea
+spotifyApp/.gradle
+spotifyApp/local.properties
+spotifyApp/*.iml
+spotifyApp/*.hprof
+spotifyApp/.cxx/
+spotifyApp/*.keystore
+!spotifyApp/debug.keystore
+
+# node.js
+#
+spotifyApp/node_modules/
+spotifyApp/npm-debug.log
+spotifyApp/yarn-error.log
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+spotifyApp/**/fastlane/report.xml
+spotifyApp/**/fastlane/Preview.html
+spotifyApp/**/fastlane/screenshots
+spotifyApp/**/fastlane/test_output
+
+# Bundle artifact
+spotifyApp/*.jsbundle
+
+# Ruby / CocoaPods
+spotifyApp/**/Pods/
+spotifyApp//vendor/bundle/
+
+# Temporary files created by Metro to check the health of the file watcher
+spotifyApp/.metro-health-check*
+
+# testing
+spotifyApp/coverage
+
+# Yarn
+spotifyApp/.yarn/*
+!spotifyApp/.yarn/patches
+!spotifyApp/.yarn/plugins
+!spotifyApp/.yarn/releases
+!spotifyApp/.yarn/sdks
+!spotifyApp/.yarn/versions
